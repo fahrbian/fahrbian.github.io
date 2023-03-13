@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(rgb(188, 239, 253), rgb(252, 178, 109));
     background-repeat: round;
+    height: 100%;
 }
 
 h1 {
