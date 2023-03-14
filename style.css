@@ -67,10 +67,11 @@ p {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 15px;
+  color: #ffffff;
   display: block;
   font-family: verdana;
+  font-style: italic;
 }
 
 /* When you mouse over the navigation links, change their color */
