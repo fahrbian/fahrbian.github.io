@@ -18,11 +18,13 @@ section {
 
 .hidden {
   opacity: 0;
-  transition: all 2s;
+  transition: all 1s;
+  filter: blur(2px);
 }
 
 .show {
   opacity: 1;
+  filter: blur(0);
 }
 
 h1 {
