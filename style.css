@@ -4,8 +4,24 @@ html {
 
 body {
     background-image: linear-gradient(rgb(188, 239, 253), rgb(252, 178, 109));
-    background-repeat: round;
-    position:absolute; top:0; bottom:0; right:0; left:0;
+    /* background-repeat: round;
+    position:absolute; top:0; bottom:0; right:0; left:0; */
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
 }
 
 h1 {
