@@ -68,8 +68,3 @@ p {
   text-decoration: none;
   font-family: verdana;
 }
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
