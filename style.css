@@ -1,17 +1,13 @@
-
-:root { background-attachment: fixed; }
-
 html {
   min-height: 100%;
 }
 
 body {
-    background-image: linear-gradient(to bottom,rgb(188, 239, 253), rgb(252, 178, 109));
+    background-image: linear-gradient(rgb(188, 239, 253), rgb(252, 178, 109));
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    /* position: fixed */
 }
 
 section {
